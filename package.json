@@ -1,0 +1,14 @@
+{
+  "name": "typescript-test2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mingmonth/typescript-test2.git",
+  "author": "김윤수 <ys9922@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9"
+  }
+}
